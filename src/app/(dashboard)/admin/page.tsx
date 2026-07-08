@@ -1502,7 +1502,7 @@ export default function AdminPanelPage() {
                         <>
                           <SelectItem value="Starter">Starter</SelectItem>
                           <SelectItem value="Premium">Premium</SelectItem>
-                          <SelectItem value="Max">Max</SelectItem>
+                          <SelectItem value="Enterprise">Enterprise</SelectItem>
                         </>
                       )}
                     </SelectContent>

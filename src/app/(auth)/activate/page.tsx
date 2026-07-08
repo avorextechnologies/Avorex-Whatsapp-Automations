@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
@@ -256,7 +256,14 @@ function ActivatePageInner() {
             id: "6b5089ce-1616-4984-bb60-183c870046fb",
             name: "Starter",
             code: "Standard",
-            features: ["Dashboard", "Basic Inbox", "Contacts", "Notifications", "1 WhatsApp Connection", "Basic Messaging"],
+            features: [
+              "1 WhatsApp Connection",
+              "Live Chat Shared Team Inbox",
+              "Contact Management & Tags",
+              "Basic Dashboard Analytics",
+              "Real-time Desktop Notifications",
+              "Broadcast Limit: 1,000 Messages/day"
+            ],
             price: "৳499 BDT",
             price_bdt: 499,
             duration_days: 30,
@@ -270,9 +277,16 @@ function ActivatePageInner() {
             id: "fc74b0e1-5510-49ce-b906-12ecd80c88f4",
             name: "Premium",
             code: "Premium",
-            features: ["Everything in Starter", "Pipelines & Deals", "Broadcasts", "Automations", "Flows", "Up to 3 WhatsApp Connections", "Visual Flow Editor"],
-            price: "৳999 BDT",
-            price_bdt: 999,
+            features: [
+              "Everything in Starter",
+              "Up to 3 WhatsApp Connections",
+              "Unlimited Daily Broadcasts",
+              "Visual Chatbot Flow Editor",
+              "CRM Sales Pipelines & Deals",
+              "Custom Webhooks Integration"
+            ],
+            price: "৳799 BDT",
+            price_bdt: 799,
             duration_days: 30,
             device_limit: 3,
             popular_badge: true,
@@ -282,13 +296,20 @@ function ActivatePageInner() {
           },
           {
             id: "93b8617e-9a58-458b-b918-b55b261f4182",
-            name: "Max",
+            name: "Enterprise",
             code: "Enterprise",
-            features: ["Full software access", "All current and future modules", "AI Agents", "Unlimited WhatsApp Channels", "Priority Support", "Custom Integrations"],
-            price: "৳1,499 BDT",
-            price_bdt: 1499,
+            features: [
+              "Everything in Premium",
+              "Up to 10 WhatsApp Connections",
+              "AI Reply Agents & Auto Chat",
+              "Dynamic AI Knowledge Base (RAG)",
+              "Round-Robin Chat Assignment",
+              "Priority VIP 24/7 Support"
+            ],
+            price: "৳999 BDT",
+            price_bdt: 999,
             duration_days: 30,
-            device_limit: 99,
+            device_limit: 10,
             popular_badge: false,
             display_order: 3,
             allowed_menus: ["dashboard", "inbox", "notifications", "contacts", "pipelines", "broadcasts", "automations", "flows", "agents"],
